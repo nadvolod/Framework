@@ -1,11 +1,12 @@
 ﻿using System;
+using Framework;
 using Framework.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
 {
     [TestClass]
-    public class AutomationTestingPageOpens
+    public class AutomationTestingPageOpens : TestBase
     {
         [TestMethod]
         public void RunTest()
